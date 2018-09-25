@@ -4,6 +4,12 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
 
     /**
      * { function_description }.
