@@ -1,6 +1,12 @@
 import java.util.Scanner;
 class Solution {
-    public static void main(String[] args) {
+
+    /**
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = Integer.parseInt(sc.nextLine());
         percolate obj = new percolate(input);
@@ -11,16 +17,28 @@ class Solution {
         System.out.println(obj.ispercolate());
     }
 }
+
+/**
+ * Class for percolate.
+ */
 class percolate {
+
     boolean[][] grid;
     WeightedQuickUnionUF obj;
     int size;
-    percolate(int size) {
+    percolate(final int size) {
         this.size = size;
         grid = new boolean[size][size];
         obj = new WeightedQuickUnionUF(size * size + 2);
     }
-    public void open(int row, int column) {
+
+    /**
+     * { function_description }
+     *
+     * @param      row     The row
+     * @param      column  The column
+     */
+    public void open(final int row, final int column) {
         if (grid[row][column]) {
             return;
         }
@@ -44,11 +62,25 @@ class percolate {
             obj.union(convert(row,column), convert(row, column + 1));
         }
     }
+
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean ispercolate() {
         return obj.connected(size * size, size * size + 1);
     }
 
-    public int convert(int i, int j) {
+    /**
+     * { function_description }
+     *
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public int convert(final int i, final int j) {
         return i * size + j;
     }
 }
