@@ -61,7 +61,9 @@ class LinkedList {
         return item;
     }
 }
-
+/**
+ * main class Solution.
+ */
 public final class Solution {
     /**
      * Constructs the object of solution.
@@ -88,6 +90,13 @@ public final class Solution {
 
         }
     }
+    /**
+     * { function_description }.
+     *
+     * @param      s     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public static boolean checkBalancedParanthesis(final String s) {
         LinkedList obj = new LinkedList();
         int sLength = s.length();
