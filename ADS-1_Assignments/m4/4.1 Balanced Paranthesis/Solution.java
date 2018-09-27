@@ -22,7 +22,7 @@ class LinkedList {
     }
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
@@ -40,7 +40,7 @@ class LinkedList {
         return firstelement == null;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      item  The item
      */
@@ -80,7 +80,7 @@ public final class Solution {
         int size = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < size; i++) {
             String line = sc.next();
-            if(checkBalancedParanthesis(line)){
+            if (checkBalancedParanthesis(line)) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
@@ -95,9 +95,8 @@ public final class Solution {
             char ch = s.charAt(i);
             if (ch == '(' || ch == '{' || ch == '[') {
                 obj.push(ch);
-            }
-            else {
-                if(obj.isEmpty()) {
+            } else {
+                if (obj.isEmpty()) {
                     return false;
                 }
                 if (ch == ')' && obj.top() == '(') {
