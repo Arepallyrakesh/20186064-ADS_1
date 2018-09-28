@@ -1,21 +1,57 @@
 import java.util.Scanner;
-public class Solution{
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		Operations ll = new Operations();
-		while(scan.hasNext()) {
-			String[] s = scan.nextLine().split(" ");
-			if (s[0].equals("pushstart")) {
-				ll.pushstart(s[1]);
-			} else if (s[0].equals("pushend")) {
-				ll.pushend(s[1]);
-			} else if (s[0].equals("popstart")) {
-				System.out.println(ll.popstart());
-			} else if (s[0].equals("popend")) {
-				System.out.println(ll.popend());
-			} else if (s[0].equals("print")) {
-				ll.print();
-			}
-		}
-	}
+/**
+class Solution.
+ **/
+final class Solution {
+    /**
+    default constructor.
+     **/
+    private Solution() {
+
+    }
+    /**
+     * main function.
+     * @param args String.
+     **/
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n;
+        Deque link = new Deque();
+        n = Integer.parseInt(sc.nextLine());
+        for (int i = 0; i < n; i++) {
+            String[] line = sc.nextLine().split(" ");
+            switch (line[0]) {
+            case "pushLeft":
+                link.addAtStart(Integer.parseInt(line[1]));
+                System.out.println(link.display());
+                break;
+            case "pushRight":
+                link.addAtEnd(Integer.parseInt(line[1]));
+                System.out.println(link.display());
+                break;
+            case "popRight":
+                if (!link.isempty()) {
+                    link.removeAtEnd();
+                    System.out.println(link.display());
+                } else {
+                    System.out.println("Deck is empty");
+                }
+                break;
+            case "popLeft":
+                if (!link.isempty()) {
+                    link.removeAtStart();
+                    System.out.println(link.display());
+                } else {
+                    System.out.println("Deck is empty");
+                }
+
+                break;
+            case "size":
+                System.out.println(link.size());
+            default:
+                break;
+            }
+
+        }
+    }
 }
