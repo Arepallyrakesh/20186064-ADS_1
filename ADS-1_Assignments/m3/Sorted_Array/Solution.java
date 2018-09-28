@@ -53,9 +53,13 @@ class SortedArray {
         int k = 0;
         while (i < size1 && j < size2) {
             if (a1[i] < a2[j]) {
-                this.resultant[k++] = a1[i++];
+                this.resultant[k] = a1[i];
+                k++;
+                i++;
             } else {
-                this.resultant[k++] = a2[j++];
+                this.resultant[k] = a2[j];
+                k++;
+                j++;
             }
         }
         while (j < size2) {
