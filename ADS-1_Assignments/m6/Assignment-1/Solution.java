@@ -30,27 +30,28 @@ class AddLargeNumbers {
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        /*System.out.println(list1.displayAll());
-        System.out.println(list2.displayAll());*/
         Stack<Integer> stack1=new Stack<Integer>();
         Stack<Integer> stack2=new Stack<Integer>();
         for(int i=0; i < list1.size(); i++){
                 stack1.push(Integer.valueOf((String) list1.get(i)));
 
         }
+               System.out.println(stack1);
 
         for(int i=0; i < list2.size(); i++){
 
             stack2.push(Integer.valueOf((String) list2.get(i)));
 
         }
+           System.out.println(stack2);
          LinkedList<Integer> list =new LinkedList<Integer>();
         int temp=0;
         while (!(stack1.empty()|| stack2.empty())) {
             int sum = temp + stack1.pop() + stack2.pop();
             if (stack1.empty()|| stack2.empty()) {
-                list.push(sum);
+                
             }   
+             list.push(sum);
         }
 
     return list;
