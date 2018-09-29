@@ -46,7 +46,7 @@ class AddLargeNumbers {
         }
          LinkedList<Integer> list =new LinkedList<Integer>();
         int temp=0;
-        if (!(stack1.empty()|| stack2.empty())) {
+        while (!(stack1.empty()|| stack2.empty())) {
             int sum = temp + stack1.pop() + stack2.pop();
             if (stack1.empty()|| stack2.empty()) {
                 list.push(sum);
