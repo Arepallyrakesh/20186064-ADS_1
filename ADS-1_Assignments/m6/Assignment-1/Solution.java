@@ -26,6 +26,8 @@ class AddLargeNumbers {
     }
 
     public static LinkedList1 addLargeNumbers(LinkedList1 list1, LinkedList1 list2) {
+    	System.out.println(list1.displayAll());
+    	System.out.println(list2.displayAll());
 
     return null;
 	}
