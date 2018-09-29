@@ -62,12 +62,12 @@ class LinkedList1 {
     }
     public String displayAll() {
             String s = "";
-            Node temp = firstelement;
+            Node temp = null;
             while (temp != null) {
                 s += temp.item;
                 temp = temp.nextAddress;
             }
-            return s.substring(0, s.length());
+            return s.substring(s.length(), 0);
         }
         
 }
