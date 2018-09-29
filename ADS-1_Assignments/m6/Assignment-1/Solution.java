@@ -30,32 +30,15 @@ class AddLargeNumbers {
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        Stack<Integer> stack1=new Stack<Integer>();
-        Stack<Integer> stack2=new Stack<Integer>();
-        for(int i=0; i < list1.size(); i++){
-                stack1.push(Integer.valueOf((String) list1.get(i)));
-
-        }
-               /*System.out.println(stack1);*/
-
-        for(int i=0; i < list2.size(); i++){
-
-            stack2.push(Integer.valueOf((String) list2.get(i)));
-
-        }
-          /* System.out.println(stack2);*/
-         LinkedList<Integer> list =new LinkedList<Integer>();
-        int temp=0;
-        while (!(stack1.empty()|| stack2.empty())) {
-            int sum = temp + stack1.pop() + stack2.pop();
-            if (stack1.empty()|| stack2.empty()) {
-                
-            }   
-             list.push(sum);
-        }
-
-    return list;
-    }
+    	String a = digitsToNumber(list1);
+    	String b = digitsToNumber(list2);
+    	LinkedList<Integer> list =new LinkedList<Integer>();
+    	int x = Integer.parseInt(a);
+    	int y = Integer.parseInt(b);
+    	int m = x+y;
+    	String answer = Integer.toString(m);
+    	return numberToDigits(answer);
+	}
 }
 
 public class Solution {
