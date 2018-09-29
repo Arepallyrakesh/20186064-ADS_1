@@ -6,7 +6,9 @@ class LinkedList1 {
     /**
      * {Initializing Nodeclass Firstelement}.
      */
+    private int length = 0;
     private Node firstelement = null;
+    private Node lastelement = null;
     /**
      * Class for node.
      */
@@ -29,6 +31,9 @@ class LinkedList1 {
     public char top() {
         return firstelement.item;
     }
+    public char bottom() {
+        return lastelement.item;
+    }
 
 
     /**
@@ -46,9 +51,14 @@ class LinkedList1 {
      */
     public void push(final char item) {
         Node oldfirst = firstelement;
+        Node oldlast = lastelement;
+        lastelement = new Node();
         firstelement = new Node();
         firstelement.item = item;
         firstelement.nextAddress = oldfirst;
+    }
+    public int size() {
+        return length;
     }
     /**
      * { function_description }.
@@ -62,12 +72,12 @@ class LinkedList1 {
     }
     public String displayAll() {
             String s = "";
-            Node temp = null;
+            Node temp = lastelement;
             while (temp != null) {
                 s += temp.item;
                 temp = temp.nextAddress;
             }
-            return s.substring(s.length(), 0);
+            return s.substring(0, s.length());
         }
-        
+   
 }
