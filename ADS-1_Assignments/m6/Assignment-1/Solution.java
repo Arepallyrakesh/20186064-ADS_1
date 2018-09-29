@@ -36,14 +36,14 @@ class AddLargeNumbers {
                 stack1.push(Integer.valueOf((String) list1.get(i)));
 
         }
-               System.out.println(stack1);
+               /*System.out.println(stack1);*/
 
         for(int i=0; i < list2.size(); i++){
 
             stack2.push(Integer.valueOf((String) list2.get(i)));
 
         }
-           System.out.println(stack2);
+          /* System.out.println(stack2);*/
          LinkedList<Integer> list =new LinkedList<Integer>();
         int temp=0;
         while (!(stack1.empty()|| stack2.empty())) {
