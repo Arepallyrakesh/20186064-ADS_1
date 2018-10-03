@@ -2,8 +2,8 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {
-	/**.
+public final class Solution {
+    /**.
      * Constructs the object.
      */
     private Solution() {
