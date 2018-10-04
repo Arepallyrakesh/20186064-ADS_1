@@ -60,8 +60,10 @@ class LinkedList {
    *
    * @throws     Exception  throws exception if index is not valid.
    */
-  public void insertAt(final int index, final int value)  {
-
+  public void insertAt(final int index, final int value) throws Exception {
+    if (index < 0 || index > size) {
+      throw new Exception("Can't insert at this position.");
+    }
     head = insertAt(head, new Node(value), index, 0);
     size++;
   }
