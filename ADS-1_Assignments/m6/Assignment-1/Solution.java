@@ -32,11 +32,16 @@ class AddLargeNumbers {
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
     	String a = digitsToNumber(list1);
     	String b = digitsToNumber(list2);
+    	/*System.out.println(a);
+    	System.out.println(b);*/
     	LinkedList<Integer> list =new LinkedList<Integer>();
     	int x = Integer.parseInt(a);
     	int y = Integer.parseInt(b);
+    	System.out.println(x);
+    	System.out.println(y);
     	int m = x+y;
-    	String answer = Integer.toString(m);
+    	System.out.println(m);
+    	String answer = String.valueOf(m);
     	return numberToDigits(answer);
 	}
 }
