@@ -42,4 +42,14 @@ public class Leaderboard {
         }
         return s.substring(0, s.length());
     }
+    public String leaderboardof(Comparable[] array, int size) {
+        Sort(array, size);
+        String s = "";
+        /*System.out.println(Arrays.toString(array));*/
+        /*s += array[1].toString();*/
+        for (int i = 0; i < size; i++) {
+            s += array[i].toString()+"  " ;
+        }
+        return s.substring(0, s.length());
+    }
 }
