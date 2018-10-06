@@ -35,7 +35,7 @@ public class Leaderboard {
     public String leaderboard(Comparable[] array, int size) {
         Sort(array, size);
         String s = "";
-        System.out.println(Arrays.toString(array));
+        /*System.out.println(Arrays.toString(array));*/
         /*s += array[1].toString();*/
         for (int i = 0; i < size; i++) {
             s += array[i].toString() + "\n";

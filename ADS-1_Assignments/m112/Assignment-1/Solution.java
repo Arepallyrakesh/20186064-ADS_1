@@ -30,7 +30,7 @@ public final class Solution {
         Leaderboard t = new Leaderboard();
         while (scan.hasNext()) {
             String[] line = scan.nextLine().split(",");
-            System.out.println(Arrays.toString(line));
+            /*System.out.println(Arrays.toString(line));*/
             if (line.length > 1) {
                 student[size++] = new Student(line[0], line[1],
                      Integer.parseInt(line[2]), Integer.parseInt(line[THREE]), Integer.parseInt(line[4]),Integer.parseInt(line[5]), line[6]);
