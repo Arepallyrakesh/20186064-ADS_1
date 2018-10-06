@@ -24,7 +24,7 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Student[] student = new Student[25];
+        Student[] student = new Student[100];
         int size = 0;
         Scanner scan = new Scanner(System.in);
         Leaderboard t = new Leaderboard();
@@ -35,7 +35,7 @@ public final class Solution {
                 student[size++] = new Student(line[0], line[1],
                      Integer.parseInt(line[2]), Integer.parseInt(line[THREE]), Integer.parseInt(line[4]),Integer.parseInt(line[5]), line[6]);
                 /*System.out.println(Arrays.toString(student));*/
-                
+
 
         }
         }
