@@ -16,7 +16,7 @@ public class Student implements Comparable<Student> {
         this.reservation = res;
     }
     public String toString() {
-        return this.name;
+        return this.name + "," + this.totalmarks + "," + this.reservation;
     }
     public String getdateofbirth() {
         return this.dateofbirth;
