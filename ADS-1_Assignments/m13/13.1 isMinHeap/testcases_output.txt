@@ -5,7 +5,13 @@ false
 true
 false
 Your Output: 
-
+true
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:51)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -16,9 +22,15 @@ false
 false
 false
 Your Output: 
-
+false
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:51)
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 true
 true
@@ -29,23 +41,24 @@ false
 true
 false
 Your Output: 
-false
-false
-false
-false
+true
+true
+true
 false
 false
 false
 true
 false
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 true
 false
 false
 Your Output: 
-
+true
+false
+false
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -53,5 +66,6 @@ true
 true
 false
 Your Output: 
-
+true
+true
 ----------------------------------------

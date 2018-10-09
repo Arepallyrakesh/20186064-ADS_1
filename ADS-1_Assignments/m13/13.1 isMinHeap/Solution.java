@@ -1,32 +1,118 @@
 import java.util.Scanner;
+
+/**
+ * Class for solution.
+ */
 class Solution {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String line = sc.nextLine();
-		/*System.out.println(line);*/
-		Heap h = new Heap();
-		switch(line) {
-			case "String" :
-			int n = sc.nextInt();
-			/*System.out.println(n);*/
-			/*while(sc.hasNext()) {
-				int index = 0;
-				String[] st = sc.nextLine().split(",");
-				System.out.println(h.checkMinHeap(st, index));
-			}*/
-			break;
-			case "Integer" :
-				while(sc.hasNext()) {
-					int index = 0;
-					String[] integer = sc.nextLine().split(",");
-					int[] ints = new int[100000];
-					for (int i = 0; i < integer.length; i++) {
-						ints[i] += Integer.parseInt(integer[i]);
-					}
-					System.out.println(h.checkMinHeap(ints, index));
-				}
-			break;
-		}
-			
-	}
+    /**
+     * Constructs the object.
+     */
+    private Solution() { }
+    /**
+     * compare.
+     *
+     * @param      pq    priority queue.
+     * @param      str   The string.
+     *
+     * @return     {compare it}.
+     */
+    public static boolean compare(String pq, String str) {
+        return pq.equals(str);
+    }
+    /**
+     * main.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String chk = sc.nextLine();
+        switch(chk) {
+            case "String" :
+            int num = sc.nextInt();
+            sc.nextLine();
+            while(sc.hasNext()) {
+                String line = sc.nextLine();
+                String str = "";
+                MinPQ<String> pq = new MinPQ<String>();
+                if (line.length() != 0) {
+                    String[] token = line.split(",");
+                    for (int j = 0; j < token.length; j++) {
+                        pq.insert(token[j]);
+                        str += token[j];
+                    }
+                    System.out.println(compare(pq.show(), str));
+                } else {
+                    System.out.println("false");
+                }
+                break;
+            }
+            case "Float" :
+            int numf = sc.nextInt();
+            sc.nextLine();
+            while(sc.hasNext()) {
+                String line = sc.nextLine();
+                String str = "";
+                MinPQ<Float> pq = new MinPQ<Float>();
+                if (line.length() != 0) {
+                    String[] token = line.split(",");
+                    Float[] floatarray = new Float[token.length];
+                    for (int j = 0; j < token.length; j++) {
+                        floatarray[j] = Float.parseFloat(token[j]);
+                        pq.insert(floatarray[j]);
+                        str += floatarray[j];
+                    }
+                    System.out.println(compare(pq.show(), str));
+                } else {
+                    System.out.println("false");
+                }
+            }
+            break;
+            case "Double" :
+            int numD = sc.nextInt();
+            sc.nextLine();
+            while(sc.hasNext()) {
+                String line = sc.nextLine();
+                String str = "";
+                MinPQ<Double> pq = new MinPQ<Double>();
+                if (line.length() != 0) {
+                    String[] token = line.split(",");
+                    Double[] Doublearray = new Double[token.length];
+                    for (int k = 0; k< token.length; k++) {
+                        Doublearray[k] = Double.parseDouble(token[k]);
+                        pq.insert(Doublearray[k]);
+                        str += Doublearray[k];
+                        }
+                    System.out.println(compare(pq.show(), str));
+                } else {
+                    System.out.println("false");
+                }
+            }
+            break;
+            case "Integer" :
+            int numI = sc.nextInt();
+            sc.nextLine();
+            while(sc.hasNext()) {
+                String line = sc.nextLine();
+                String str = "";
+                MinPQ<Integer> pq = new MinPQ<Integer>();
+                if (line.length() != 0) {
+                    String[] token = line.split(",");
+                    Integer[] integerarray = new Integer[token.length];
+                    for (int k = 0; k< token.length; k++) {
+                        integerarray[k] = Integer.parseInt(token[k]);
+                        pq.insert(integerarray[k]);
+                        str += integerarray[k];
+                    }
+                    System.out.println(compare(pq.show(), str));
+                } else {
+                    System.out.println("false");
+                }
+            }
+            break;
+        default:
+            break;
+        }
+
+    }
 }
