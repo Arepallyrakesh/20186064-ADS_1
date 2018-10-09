@@ -50,7 +50,7 @@ class Solution {
             case "Float" :
             int numf = sc.nextInt();
             sc.nextLine();
-            while(sc.hasNext()) {
+            while(numf > 0) {
                 String line = sc.nextLine();
                 String str = "";
                 MinPQ<Float> pq = new MinPQ<Float>();
@@ -66,7 +66,9 @@ class Solution {
                 } else {
                     System.out.println("false");
                 }
+                numf--;
             }
+
             break;
             case "Double" :
             int numD = sc.nextInt();
