@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * Class for solution.
@@ -45,8 +45,8 @@ class Solution {
                 } else {
                     System.out.println("false");
                 }
-                break;
             }
+            break;
             case "Float" :
             int numf = sc.nextInt();
             sc.nextLine();

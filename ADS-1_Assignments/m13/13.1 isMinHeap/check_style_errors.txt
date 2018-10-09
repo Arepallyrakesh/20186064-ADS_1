@@ -1,17 +1,16 @@
 Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:6: Class Solution should be declared as final. [FinalClass]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:19:35: Parameter pq should be final. [FinalParameters]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:19:46: Parameter str should be final. [FinalParameters]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:27:29: Parameter args should be final. [FinalParameters]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:30:15: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:34:18: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:53:18: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:74:18: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:34:18: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:53:18: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:74:18: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:80:30: Name 'Doublearray' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:81:38: '<' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:95:18: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:95:18: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m13\13.1 isMinHeap\Solution.java:102:38: '<' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 13 errors.
