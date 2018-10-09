@@ -24,7 +24,7 @@ public final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String chk = sc.nextLine();
         switch (chk) {
@@ -50,7 +50,7 @@ public final class Solution {
             case "Float" :
             int numf = sc.nextInt();
             sc.nextLine();
-            while(numf > 0) {
+            while (numf > 0) {
                 String line = sc.nextLine();
                 String str = "";
                 MinPQ<Float> pq = new MinPQ<Float>();
@@ -73,14 +73,14 @@ public final class Solution {
             case "Double" :
             int numD = sc.nextInt();
             sc.nextLine();
-            while(sc.hasNext()) {
+            while (sc.hasNext()) {
                 String line = sc.nextLine();
                 String str = "";
                 MinPQ<Double> pq = new MinPQ<Double>();
                 if (line.length() != 0) {
                     String[] token = line.split(",");
                     Double[] doublearray = new Double[token.length];
-                    for (int k = 0; k< token.length; k++) {
+                    for (int k = 0; k < token.length; k++) {
                         doublearray[k] = Double.parseDouble(token[k]);
                         pq.insert(doublearray[k]);
                         str += doublearray[k];
@@ -94,7 +94,7 @@ public final class Solution {
             case "Integer" :
             int numI = sc.nextInt();
             sc.nextLine();
-            while(sc.hasNext()) {
+            while (sc.hasNext()) {
                 String line = sc.nextLine();
                 String str = "";
                 MinPQ<Integer> pq = new MinPQ<Integer>();
