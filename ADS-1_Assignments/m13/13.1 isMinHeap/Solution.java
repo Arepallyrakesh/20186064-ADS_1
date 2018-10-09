@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -16,7 +16,7 @@ class Solution {
      *
      * @return     {compare it}.
      */
-    public static boolean compare(String pq, String str) {
+    public static boolean compare(final String pq, final String str) {
         return pq.equals(str);
     }
     /**
@@ -27,11 +27,11 @@ class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String chk = sc.nextLine();
-        switch(chk) {
+        switch (chk) {
             case "String" :
             int num = sc.nextInt();
             sc.nextLine();
-            while(sc.hasNext()) {
+            while (sc.hasNext()) {
                 String line = sc.nextLine();
                 String str = "";
                 MinPQ<String> pq = new MinPQ<String>();
@@ -79,11 +79,11 @@ class Solution {
                 MinPQ<Double> pq = new MinPQ<Double>();
                 if (line.length() != 0) {
                     String[] token = line.split(",");
-                    Double[] Doublearray = new Double[token.length];
+                    Double[] doublearray = new Double[token.length];
                     for (int k = 0; k< token.length; k++) {
-                        Doublearray[k] = Double.parseDouble(token[k]);
-                        pq.insert(Doublearray[k]);
-                        str += Doublearray[k];
+                        doublearray[k] = Double.parseDouble(token[k]);
+                        pq.insert(doublearray[k]);
+                        str += doublearray[k];
                         }
                     System.out.println(compare(pq.show(), str));
                 } else {
@@ -101,7 +101,7 @@ class Solution {
                 if (line.length() != 0) {
                     String[] token = line.split(",");
                     Integer[] integerarray = new Integer[token.length];
-                    for (int k = 0; k< token.length; k++) {
+                    for (int k = 0; k < token.length; k++) {
                         integerarray[k] = Integer.parseInt(token[k]);
                         pq.insert(integerarray[k]);
                         str += integerarray[k];
