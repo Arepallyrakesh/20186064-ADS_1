@@ -19,6 +19,16 @@ X
 R
 1
 true
+A 8
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
 8
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -40,6 +50,16 @@ false
 null
 Your Output: 
 Y
+A 1
+E 6
+I 9
+N 11
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
 Y
 A
 Y
@@ -73,6 +93,16 @@ true
 T
 Your Output: 
 X
+A 6
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
 0
 1
 1
@@ -105,6 +135,20 @@ true
 13
 P
 Your Output: 
+A 14
+B 0
+C 10
+E 18
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
 Y
 13
 true
@@ -132,4 +176,13 @@ null
 Y
 7
 true
+A 7
+B 8
+E 10
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
 ----------------------------------------

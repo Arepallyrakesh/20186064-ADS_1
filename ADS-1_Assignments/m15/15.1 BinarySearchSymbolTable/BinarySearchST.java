@@ -385,6 +385,11 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
             if (keys[i].compareTo(select(rank(keys[i]))) != 0) return false;
         return true;
     }
+    public void keys() {
+        for (int i=0; i<n; i++) {
+            System.out.println(keys[i]+" "+vals[i]);
+        }
+    }
 
 
     /**

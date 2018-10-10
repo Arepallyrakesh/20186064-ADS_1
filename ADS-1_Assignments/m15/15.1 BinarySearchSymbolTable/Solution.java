@@ -30,6 +30,8 @@ class Solution {
 				System.out.println(obj.contains(token[1]));
 			} else if (token[0].equals("get")) {
 				System.out.println(obj.get(token[1]));
+			} else if (token[0].equals("keys")) {
+				obj.keys();
 			}
 		}
 
