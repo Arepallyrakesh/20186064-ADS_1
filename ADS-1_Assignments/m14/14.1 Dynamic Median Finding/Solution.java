@@ -2,11 +2,11 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {    
+public final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
 
     }
 
@@ -15,7 +15,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         MinPQ<Float> minpq = new MinPQ<Float>();
         MaxPQ<Float> maxpq = new MaxPQ<Float>();
@@ -35,7 +35,6 @@ class Solution {
             }
             if (maxpq.size() - minpq.size() > 1) {
                 minpq.insert(maxpq.delMax());
-                
             }
 
             if (minpq.size() == maxpq.size()) {

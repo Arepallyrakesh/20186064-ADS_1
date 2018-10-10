@@ -1,7 +1,2 @@
 Starting audit...
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m14\14.1 Dynamic Median Finding\Solution.java:5: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m14\14.1 Dynamic Median Finding\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m14\14.1 Dynamic Median Finding\Solution.java:18:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m14\14.1 Dynamic Median Finding\Solution.java:38: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.
