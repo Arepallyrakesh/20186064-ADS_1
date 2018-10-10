@@ -18,7 +18,7 @@ class Solution {
 		while (sc.hasNext()) {
 			String[] token = sc.nextLine().split(" ");
 			/*System.out.println(token);*/
-			if (token.equals("deleteMin")) {
+			if (token[0].equals("deleteMin")) {
 				obj.deleteMin();
 			} else if (token[0].equals("max")) {
 				System.out.println(obj.max());
