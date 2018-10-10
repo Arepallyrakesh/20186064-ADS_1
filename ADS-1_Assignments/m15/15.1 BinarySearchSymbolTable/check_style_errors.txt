@@ -1,12 +1,2 @@
 Starting audit...
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:14: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:19:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:21:20: Array brackets at illegal position. [ArrayTypeStyle]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:22: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:23:26: '<' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:23:27: '<' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:24:29: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 9 errors.

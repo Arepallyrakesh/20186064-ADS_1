@@ -3,25 +3,26 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
 
     }
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        String line[] = sc.nextLine().split(" ");
-        BinarySearchST<String, Integer> obj = new BinarySearchST<String, Integer>();
-        for (int i = 0; i<line.length; i++) {
-            obj.put(line[i],i);
+        String[] line = sc.nextLine().split(" ");
+        BinarySearchST<String, Integer> obj = new
+            BinarySearchST<String, Integer>();
+        for (int i = 0; i < line.length; i++) {
+            obj.put(line[i], i);
         }
         /*System.out.println(line);*/
         while (sc.hasNext()) {
