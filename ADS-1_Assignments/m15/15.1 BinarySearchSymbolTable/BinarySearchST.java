@@ -387,7 +387,10 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     public void keys() {
         for (int i=0; i<n; i++) {
+            if (vals[i]!=null) {
             System.out.println(keys[i]+" "+vals[i]);
+                
+            }
         }
     }
 
