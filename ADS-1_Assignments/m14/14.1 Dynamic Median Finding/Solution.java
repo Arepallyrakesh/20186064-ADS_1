@@ -1,14 +1,26 @@
 import java.util.Scanner;
-class Solution {
-	Solution() {
+/**
+ * Class for solution.
+ */
+class Solution {    
+    /**
+     * Constructs the object.
+     */
+    Solution() {
 
-	}
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		MinPQ<Float> minpq = new MinPQ<Float>();
-		MaxPQ<Float> maxpq = new MaxPQ<Float>();
-		Float median = 0.0f;
-		int n = sc.nextInt();
+    }
+
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        MinPQ<Float> minpq = new MinPQ<Float>();
+        MaxPQ<Float> maxpq = new MaxPQ<Float>();
+        Float median = 0.0f;
+        int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
             Float val = sc.nextFloat();
             if (val > median) {
