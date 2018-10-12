@@ -6,7 +6,7 @@ public final class Solution {
     /**
      * Constructs the object.
      */
-    private Solution(){
+    private Solution() {
 
     }
     /**
@@ -14,7 +14,7 @@ public final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         CubeSum obj = new CubeSum();
         Scanner sc = new Scanner(System.in);
         String[] n = sc.nextLine().split(" ");
