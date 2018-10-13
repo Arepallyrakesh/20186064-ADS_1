@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:1:8: Unused import - java.util.Scanner. [UnusedImports]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:2:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:8:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:10:11: Parameter a should be final. [FinalParameters]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:10:21: Parameter b should be final. [FinalParameters]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m18\Week-3_Assignment-1\Stock.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 13 errors.
