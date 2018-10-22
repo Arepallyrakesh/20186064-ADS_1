@@ -78,6 +78,7 @@ Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
 
+
 Merck Ltd 5.83
 Bajaj Finserv 5.64
 ICRA 4.84
@@ -187,6 +188,7 @@ Vinati Organics 4.03
 APL Apollo Tube 3.18
 Fine Organic Industries Ltd. 2.29
 Chola Inv Fin 1.47
+
 
 Larsen & Toubro 4.08
 Jubilant Food 4.08
@@ -303,6 +305,7 @@ Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
 
+
 Merck Ltd 5.83
 Bajaj Finserv 5.64
 ICRA 4.84
@@ -417,6 +420,7 @@ Vinati Organics 4.03
 APL Apollo Tube 3.18
 Fine Organic Industries Ltd. 2.29
 Chola Inv Fin 1.47
+
 
 Larsen & Toubro 4.08
 Jubilant Food 4.08
@@ -547,6 +551,7 @@ Schaeffler India 2.57
 TTK Prestige 2.15
 ICRA 2.15
 Bharat Rasayan 2.0
+
 
 Bajaj Finserv 5.64
 Schaeffler India 4.59

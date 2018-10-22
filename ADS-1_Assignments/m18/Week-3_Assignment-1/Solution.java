@@ -29,14 +29,15 @@ class Solution {
 
             }
                 System.out.println();
-            while (top1 < 0) {
+             while (top1 > 0) {
 
-                Stock result1 = minpq.delMin();
+                Stock result = minpq.delMin();
 
-                System.out.println(result1.print());
+                System.out.println(result.print());
                 top1--;
 
-            } 
+            }
+                System.out.println();
               
 		for (int j = m; j >= m && j < 2 * m; j++) {
 			String[] line2 = sc.nextLine().split(",");
