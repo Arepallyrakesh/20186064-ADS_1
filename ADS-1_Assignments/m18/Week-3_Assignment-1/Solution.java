@@ -14,8 +14,7 @@ class Solution {
 			/*System.out.println(Arrays.toString(line1));*/
 			 	maxpq.insert(new Stock(line1[0], Double.parseDouble(line1[1])));
                 minpq.insert(new Stock(line1[0], Double.parseDouble(line1[1])));
-               /* Stock result = maxpq.delMax();
-                System.out.println(result.print());*/
+               
                 
 		}
 		int top1 = 5;
@@ -29,6 +28,7 @@ class Solution {
 
             }
             System.out.println();
+            top1 = 5;
              while (top1 > 0) {
 
                 Stock result1 = minpq.delMin();
@@ -37,7 +37,7 @@ class Solution {
                 top1--;
 
             }
-            System.out.println();
+            
               
 		for (int j = m; j >= m && j < 2 * m; j++) {
 			String[] line2 = sc.nextLine().split(",");
@@ -61,6 +61,15 @@ class Solution {
 
             }
             System.out.println();
+            top2 = 5;
+             while (top2 > 0) {
+
+                Stock result1 = minpq.delMin();
+
+                System.out.println(result1.print());
+                top2--;
+
+            }
 		
 		for (int j = 2*m; j >= 2*m && j < 3 * m; j++) {
 			String[] line3 = sc.nextLine().split(",");
@@ -80,22 +89,20 @@ class Solution {
 
             }
             System.out.println();
+            top3 = 5;
+             while (top3 > 0) {
+
+                Stock result1 = minpq.delMin();
+
+                System.out.println(result1.print());
+                top3--;
+
+            }
 		for (int j = 3 * m; j >= 3*m && j < 4 * m; j++) {
 			String[] line4 = sc.nextLine().split(",");
 			/*System.out.println(Arrays.toString(line4));*/
 			maxpq.insert(new Stock(line4[0], Double.parseDouble(line4[1])));
             minpq.insert(new Stock(line4[0], Double.parseDouble(line4[1])));
-            
-
-           /* while (top > 0) {
-
-                Stock result = maxpq.delMax();
-
-                System.out.println(result.print());               
-                top--;
-
-            }*/
-			
 		}
 		int top4 = 5;
 
@@ -108,6 +115,15 @@ class Solution {
 
             }
             System.out.println();
+            top4 = 5;
+             while (top4 > 0) {
+
+                Stock result1 = minpq.delMin();
+
+                System.out.println(result1.print());
+                top4--;
+
+            }
 		
 		for (int j = 4* m; j >= 4 *m && j < 5 * m; j++) {
 			String[] line5 = sc.nextLine().split(",");
@@ -129,6 +145,15 @@ class Solution {
 
             }
             System.out.println();
+            top5 = 5;
+             while (top5 > 0) {
+
+                Stock result1 = minpq.delMin();
+
+                System.out.println(result1.print());
+                top5--;
+
+            }
 		
 		for (int j = 5*m; j >= 5*m && j < 6 * m; j++) {
 			String[] line6 = sc.nextLine().split(",");
@@ -143,6 +168,15 @@ class Solution {
                 Stock result = maxpq.delMax();
 
                 System.out.println(result.print());               
+                top6--;
+
+            }
+            top6 = 5;
+             while (top6 > 0) {
+
+                Stock result1 = minpq.delMin();
+
+                System.out.println(result1.print());
                 top6--;
 
             }
