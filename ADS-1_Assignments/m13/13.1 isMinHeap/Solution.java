@@ -18,10 +18,10 @@ final class Solution {
         int size;
         Scanner sc = new Scanner(System.in);
         String type = sc.nextLine();
-        int nooftestcases = sc.nextInt();
+        int ntcases = sc.nextInt();
         Minheap m = new Minheap();
         sc.nextLine();
-        for (int i = 0; i < nooftestcases; i++) {
+        for (int i = 0; i < ntcases; i++) {
             String line = sc.nextLine();
             if (line.length() == 0) {
                 System.out.println("false");
