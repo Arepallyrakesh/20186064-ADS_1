@@ -1,1 +1,1 @@
-{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "ads1_m19_a1", "user_id": "Arepallyrakesh", "score": {"sample": {}}, "check_style_score": "0/1"}
+{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "ads1_m19_a1", "user_id": "Arepallyrakesh", "score": {"sample": {"0": {"execution_time": 0.30214905738830566, "passed": true}, "1": {"execution_time": 0.2887859344482422, "passed": true}, "2": {"execution_time": 0.30230045318603516, "passed": true}}}, "check_style_score": "0/1"}

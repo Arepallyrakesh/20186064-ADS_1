@@ -10,6 +10,7 @@ final class Solution {
      */
     private Solution() {
 
+
     }
 
     /**
