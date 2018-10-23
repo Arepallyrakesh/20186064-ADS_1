@@ -16,7 +16,7 @@ class Solution {
                 minpq.insert(new Stock(line1[0], Double.parseDouble(line1[1])));
                
                 
-		
+		}
 		int top1 = 5;
 
             while (top1 > 0) {
@@ -37,7 +37,7 @@ class Solution {
                 top1--;
 
             }
-        }
+        
             System.out.println();
               
 		for (int j = m; j >= m && j < 2 * m; j++) {
@@ -49,7 +49,7 @@ class Solution {
 
             System.out.println(res.print());*/
 
-			
+			}
 		
 		 int top2 = 5;
 
@@ -71,7 +71,7 @@ class Solution {
                 top2--;
 
             }
-        }
+        
 		System.out.println();
 		for (int j = 2*m; j >= 2*m && j < 3 * m; j++) {
 			String[] line3 = sc.nextLine().split(",");
@@ -79,7 +79,7 @@ class Solution {
 			maxpq.insert(new Stock(line3[0], Double.parseDouble(line3[1])));
             minpq.insert(new Stock(line3[0], Double.parseDouble(line3[1])));
        
-		
+		}
 		int top3 = 5;
 
             while (top3 > 0) {
@@ -100,14 +100,14 @@ class Solution {
                 top3--;
 
             }
-        }
+        
         System.out.println();
 		for (int j = 3 * m; j >= 3*m && j < 4 * m; j++) {
 			String[] line4 = sc.nextLine().split(",");
 			/*System.out.println(Arrays.toString(line4));*/
 			maxpq.insert(new Stock(line4[0], Double.parseDouble(line4[1])));
             minpq.insert(new Stock(line4[0], Double.parseDouble(line4[1])));
-		
+		}
 		int top4 = 5;
 
             while (top4 > 0) {
@@ -128,7 +128,7 @@ class Solution {
                 top4--;
 
             }
-		}
+		
         System.out.println();
 		for (int j = 4* m; j >= 4 *m && j < 5 * m; j++) {
 			String[] line5 = sc.nextLine().split(",");
@@ -138,7 +138,7 @@ class Solution {
             
 
         
-		
+		}
 		int top5 = 5;
 
             while (top5 > 0) {
@@ -159,14 +159,14 @@ class Solution {
                 top5--;
 
             }
-		}
+		
         System.out.println();
 		for (int j = 5*m; j >= 5*m && j < 6 * m; j++) {
 			String[] line6 = sc.nextLine().split(",");
 			maxpq.insert(new Stock(line6[0], Double.parseDouble(line6[1])));
             minpq.insert(new Stock(line6[0], Double.parseDouble(line6[1])));
 		
-		 
+		 }
 		 int top6 = 5;
 
             while (top6 > 0) {
@@ -186,7 +186,7 @@ class Solution {
                 top6--;
 
             }
-          }
+          
 
 
 	}
