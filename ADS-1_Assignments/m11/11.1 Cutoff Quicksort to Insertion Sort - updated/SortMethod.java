@@ -28,9 +28,9 @@ class SortMethod {
             }
         }
     }
-// time complexity of this method is O(1).
-    //Swapping method could swap elements at once.
     /**
+    // time complexity of this method is O(1).
+    //Swapping method could swap elements at once.
      * @brief [brief description]
      * @details [long description]
      *
@@ -44,9 +44,9 @@ class SortMethod {
         arr[j] = arr[min];
         arr[min] = temp;
     }
-// time complexity of this method is O(N). It iterates through
-// the array to print all the objects in array.
     /**
+    // time complexity of this method is O(N). It iterates through
+    // the array to print all the objects in array.
      * returns a String that prints,
      * according to the given format.
      * @param arr [Comparable type]
@@ -61,8 +61,8 @@ class SortMethod {
         str += arr[arr.length - 1] + "]";
         return str;
     }
-// time complexity is O(log N)
     /**
+     * time complexity is O(log N)
      * sort method.
      * @param arr [Comparable type]
      * @param low [low]
@@ -81,17 +81,17 @@ class SortMethod {
         sort(arr, low, k - 1, cutOff);
         sort(arr, k + 1, high, cutOff);
     }
-//time complexity is O(1)
-/**
- * Sort method overloaded.
- * @param array [Comparable type]
- * @param cutOff [variable]
- */
+    /**
+     * time complexity is O(1)
+     * Sort method overloaded.
+     * @param array [Comparable type]
+     * @param cutOff [variable]
+     */
     public void sort(final Comparable[] array, final int cutOff) {
         sort(array, 0, array.length - 1, cutOff);
     }
-// time complexity is O(N).
     /**
+     * time complexity is O(N).
      *
      * @param arr [Comparable type]
      * @param low [description]
@@ -121,9 +121,9 @@ class SortMethod {
         swap(arr, low, j);
         return j;
     }
-// time complexity is O(1).
 //It runs once and returns bool value.
     /**
+     * time complexity is O(1).
      * checks if it less or not.
      * @param a [Comparable type]
      * @param b [Comparable type]
