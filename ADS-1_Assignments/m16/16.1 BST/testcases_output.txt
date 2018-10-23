@@ -1,34 +1,26 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 1
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Bob Sedgewick"
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.base/java.lang.Double.parseDouble(Double.java:543)
-	at Solution.main(Solution.java:25)
+1
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 6
 5
 7
 2
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "JK"
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.base/java.lang.Double.parseDouble(Double.java:543)
-	at Solution.main(Solution.java:25)
+6
+5
+7
+2
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 null
 7
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "JK"
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.base/java.lang.Double.parseDouble(Double.java:543)
-	at Solution.main(Solution.java:25)
+null
+7
 ----------------------------------------
