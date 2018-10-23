@@ -175,8 +175,8 @@ class Solution {
 
                 System.out.println(result.print());               
                 top6--;
-
             }
+                System.out.println();
             top6 = 5;
              while (top6 > 0) {
 
