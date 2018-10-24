@@ -108,13 +108,8 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     /**
-     * Returns the value associated with the given key.
-     *
-     * @param  key the key
-     * @return the value associated with the
-     * given key if the key is in the symbol table
-     * and {@code null} if the key is not in the symbol table
-     * @throws IllegalArgumentException if {@code key} is {@code null}
+     * complexity of get method in average is log N.
+     * complexity of get method in worst case is N.
      */
     public Value get(final Key key) {
         return get(root, key);
@@ -148,13 +143,8 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     /**
-     * Inserts the specified key-value pair
-     * into the symbol table, overwriting the old
-     * value with the new value if the symbol
-     * table already contains the specified key.
-     * Deletes the specified key
-     * (and its associated value) from this symbol table
-     * if the specified value is {@code null}.
+     * complexity of put method in average is log N.
+     * complexity of put method in worst case is N.
      *
      * @param  key the key
      * @param  val the value
