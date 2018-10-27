@@ -17,7 +17,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String n = sc.nextLine();
         int m = Integer.parseInt(n);
@@ -34,7 +34,6 @@ class Solution {
             Student student = hmap.get(Integer.parseInt(token[1]));
 
             if(student == null){
-
                 System.out.println("Student doesn't exists...");
 
             } else if(token[2].equals("1")) {
