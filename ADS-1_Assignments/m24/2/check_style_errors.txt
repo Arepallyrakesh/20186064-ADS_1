@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:16:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:19:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\m24\2\Student.java:22:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 9 errors.
