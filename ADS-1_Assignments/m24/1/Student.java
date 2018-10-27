@@ -14,13 +14,12 @@ class Student {
      * Constructs the object.
      *
      * @param      n     { parameter_description }
-     * @param      t     { parameter_description }
+     * @param      m     { parameter_description }
      */
     Student(final String n, final Double m) {
         this.name = n;
         this.marks = m;
     }
-   
     /**
      * { function_description }.
      *
