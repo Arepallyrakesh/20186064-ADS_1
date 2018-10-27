@@ -30,7 +30,7 @@ class Solution {
 					System.out.println(student.getName());
 
 			} else if(token[2].equals("2")) {
-				System.out.println(student.getName());
+				System.out.println(student.getMarks());
 			}
 
 			
