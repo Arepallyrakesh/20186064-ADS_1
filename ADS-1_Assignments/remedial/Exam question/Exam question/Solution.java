@@ -8,7 +8,7 @@ import java.io.FilenameFilter;
 class Solution {
 	public static void main(String[] args) {
 		SequentialSearchST ss = new SequentialSearchST();
-		SeparateChainingHashST sc = new SeparateChainingHashST();
+		
 		Scanner s = new Scanner(System.in);
 		String si = s.next();
 
@@ -49,18 +49,20 @@ class Solution {
 				        
 				}
 				//System.out.println(arrli); 
-				System.out.println(count+", " +arrli);
-				break;
+				
 
 			
 				//System.out.println(ss.get("moana"));
 				  
 	}
+
 		catch( Exception e) {
 		System.out.println("file not found");
 		}
 			//System.out.println(str);
-	    	s.close();
+	System.out.println(count+", " +arrli);
+	break;
+	    	/*s.close();*/
 	}
 
 	}
