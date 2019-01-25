@@ -44,10 +44,10 @@ class Solution {
 					if (count > 0) {
 						System.out.println(si+ ":"+count);
 					    System.out.println(a+ ", " +count+", " +arrli);
-					  break;
 						}
 						count++;
 					}
+					
 					
 
 				
