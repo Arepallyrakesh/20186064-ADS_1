@@ -44,11 +44,11 @@ class Solution {
 				       arrli.add(i);
 				   	//	System.out.print(s4);
 				    }
-    				
-				       
-				        
 				}
-				       System.out.println(count+", " +arrli);
+				if (count > 0) {
+					
+				    System.out.println(count+", " +arrli);
+				}
 				//System.out.println(arrli); 
 				
 
