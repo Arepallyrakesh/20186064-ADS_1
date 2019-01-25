@@ -38,13 +38,15 @@ class Solution {
 				       arrli.add(i);
 				   	//	System.out.print(s4);
 				    } 
+				       
 
 					   }
 					if (count > 0) {
-						System.out.println(si+ ":"+count);
+						System.out.println(si+ ":"+count++);
 					    System.out.println(a+ ", " +count+", " +arrli);
-					    break;
+					  break;
 						}
+						count++;
 					}
 					
 
