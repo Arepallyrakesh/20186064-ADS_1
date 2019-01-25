@@ -22,7 +22,10 @@ class Solution {
 
     }
 })) {
+			ArrayList<Integer> arrli = new ArrayList<Integer>();
 			String str = "";
+			String s4= "";
+			int count = 0;
 			try {
 	    	s = new Scanner(file);
 	    	 while (s.hasNextLine()) 
@@ -33,20 +36,22 @@ class Solution {
       			String Name = si;
 				int index = -1;
 				int i = 0;
-				String s4= "";
-				int count = 0;
+				String s5 = "";
 				for (i=0;i<str1.length;i++) {
 				    if (str1[i].equals(Name)) {
 				        index = i;
-				       s4 = i+", ";
-				       System.out.print(s4);
+				        count++;
+				       arrli.add(i);
+				   	//	System.out.print(s4);
 				    }
-				       //s4 = s4.substring(0, s4.length() - 1);
-				    //ss.put(str1[i], i);
-				    //ss.put(str1[i], i);
+    				
+				       
 				        
 				}
-				      System.out.println();
+				//System.out.println(arrli); 
+				System.out.println(count+", " +arrli);
+				break;
+
 			
 				//System.out.println(ss.get("moana"));
 				  
