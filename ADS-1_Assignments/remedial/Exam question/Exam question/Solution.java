@@ -43,6 +43,7 @@ class Solution {
 					
 				    System.out.println(count1+ ", " +count+", " +arrli);
 				}
+				break;
 				//System.out.println(arrli); 
 				}
 				//System.out.println(ss.get("moana"));
