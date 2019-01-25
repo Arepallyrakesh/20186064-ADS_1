@@ -31,10 +31,11 @@ class Solution {
 	    	s = new Scanner(file);
 	    	 while (s.hasNextLine()) 
 	    	 	str += s.nextLine() + "\n";
+	    	 count1++;
       			// System.out.println(s.nextLine());
 	    	
 	    	 String[] str1 = str.split(" ");
-	    	 count1++;
+	    	 
       			//System.out.println(Arrays.toString(str1)); 
       			String Name = si;
 				int index = -1;
