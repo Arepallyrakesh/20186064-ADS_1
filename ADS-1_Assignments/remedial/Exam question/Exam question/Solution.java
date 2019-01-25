@@ -48,6 +48,7 @@ class Solution {
 				       
 				        
 				}
+				       System.out.println(count+", " +arrli);
 				//System.out.println(arrli); 
 				
 
@@ -60,7 +61,7 @@ class Solution {
 		System.out.println("file not found");
 		}
 			//System.out.println(str);
-	System.out.println(count+", " +arrli);
+	
 	break;
 	    	/*s.close();*/
 	}
