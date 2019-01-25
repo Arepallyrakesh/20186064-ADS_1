@@ -116,7 +116,7 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:34:55: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:40: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:41: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:45: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:45: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:45:70: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:45:75: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:45:76: '+' is not followed by whitespace. [WhitespaceAround]
