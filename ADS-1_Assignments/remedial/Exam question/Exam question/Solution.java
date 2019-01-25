@@ -15,7 +15,7 @@ class Solution {
 			
 			String s4= "";
 			int count = 0;
-			int count1 = -1;
+			int count1 = 0;
 			
 	    	 
       			//System.out.println(Arrays.toString(str1)); 
@@ -26,10 +26,10 @@ class Solution {
 				try{
 
 
-		for (int a = 0; a <= 8; a++)  {
-			Scanner sc = new Scanner (new File("Files/"+a+".txt"));
-			String[] str = sc.nextLine().split(" ");
-	    	 count1++;
+			for (int a = 0; a <= 8; a++)  {
+				Scanner sc = new Scanner (new File("Files/"+a+".txt"));
+				String[] str = sc.nextLine().split(" ");
+		    	 
 
 			for (i=0;i<str.length;i++) {
 				    if (str[i].equals(Name)) {
@@ -40,14 +40,14 @@ class Solution {
 				    }
 				}
 				if (count > 0) {
-					
+					System.out.println(si+ ":"+count);
 				    System.out.println(count1+ ", " +count+", " +arrli);
 				}
-				break;
+				
 				//System.out.println(arrli); 
 				}
+				count++;
 				//System.out.println(ss.get("moana"));
-				  
 	
 }
 				 catch (Exception e) {
@@ -59,6 +59,8 @@ class Solution {
 	
 
 	    	s.close();
+
+	
 	}
 
 	}
