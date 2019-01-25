@@ -34,10 +34,11 @@ class Solution {
 				int index = -1;
 				int i = 0;
 				String s4= "";
+				int count = 0;
 				for (i=0;i<str1.length;i++) {
 				    if (str1[i].equals(Name)) {
 				        index = i;
-				       s4 = i+",";
+				       s4 = i+", ";
 				       System.out.print(s4);
 				    }
 				       //s4 = s4.substring(0, s4.length() - 1);
