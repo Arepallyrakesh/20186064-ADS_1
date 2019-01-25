@@ -126,17 +126,18 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:46:78: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:46:79: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:46:85: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:50: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:49: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:51: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:53: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:57: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:58:9: '}' at column 2 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:61: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:66: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:68: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:52: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:54: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:58: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:59:9: '}' at column 2 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:62: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:67: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:69: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\Solution.java:70: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 54 errors.
+Checkstyle ends with 55 errors.
 Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\test.java:1: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remedial\Exam question\Exam question\test.java:2: Line has trailing spaces. [RegexpSingleline]
