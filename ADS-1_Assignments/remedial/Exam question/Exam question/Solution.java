@@ -37,15 +37,16 @@ class Solution {
 					        count++;
 					       arrli.add(i);
 					   	//	System.out.print(s4);
+					    } else {
+					    	System.out.println("word is not present in any file");
 					    }
 
+					   }
 					if (count > 0) {
 						System.out.println(si+ ":"+count);
 					    System.out.println(a+ ", " +count+", " +arrli);
-					   
-
+					    break;
 						}
-					}
 					}
 					
 
