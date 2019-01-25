@@ -32,14 +32,12 @@ class Solution {
 		    	 
 
 				for (i=0;i<str.length;i++) {
-					    if (str[i].equals(Name)) {
-					        index = i;
-					        count++;
-					       arrli.add(i);
-					   	//	System.out.print(s4);
-					    } else {
-					    	System.out.println("word is not present in any file");
-					    }
+				    if (str[i].equals(Name)) {
+				        index = i;
+				        count++;
+				       arrli.add(i);
+				   	//	System.out.print(s4);
+				    } 
 
 					   }
 					if (count > 0) {
