@@ -26,12 +26,15 @@ class Solution {
 			String str = "";
 			String s4= "";
 			int count = 0;
+			int count1 = -1;
 			try {
 	    	s = new Scanner(file);
 	    	 while (s.hasNextLine()) 
 	    	 	str += s.nextLine() + "\n";
       			// System.out.println(s.nextLine());
+	    	
 	    	 String[] str1 = str.split(" ");
+	    	 count1++;
       			//System.out.println(Arrays.toString(str1)); 
       			String Name = si;
 				int index = -1;
@@ -47,7 +50,7 @@ class Solution {
 				}
 				if (count > 0) {
 					
-				    System.out.println(count+", " +arrli);
+				    System.out.println(count1+ ", " +count+", " +arrli);
 				}
 				//System.out.println(arrli); 
 				
