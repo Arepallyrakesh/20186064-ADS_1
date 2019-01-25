@@ -62,8 +62,8 @@ class Solution {
 		}
 			//System.out.println(str);
 	
-	break;
-	    	/*s.close();*/
+
+	    	s.close();
 	}
 
 	}
