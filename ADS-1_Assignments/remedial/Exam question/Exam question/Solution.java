@@ -38,15 +38,16 @@ class Solution {
 				       arrli.add(i);
 				   	//	System.out.print(s4);
 				    }
+					if (count > 0) {
+						System.out.println(si+ ":"+count);
+					    System.out.println(count1+ ", " +count+", " +arrli);
+					}
 				}
-				if (count > 0) {
-					System.out.println(si+ ":"+count);
-				    System.out.println(count1+ ", " +count+", " +arrli);
-				}
+				
 				
 				//System.out.println(arrli); 
 				count++;
-				break;
+
 				}
 				//System.out.println(ss.get("moana"));
 	
