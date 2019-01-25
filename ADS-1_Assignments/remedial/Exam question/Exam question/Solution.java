@@ -31,27 +31,28 @@ class Solution {
 				String[] str = sc.nextLine().split(" ");
 		    	 
 
-			for (i=0;i<str.length;i++) {
-				    if (str[i].equals(Name)) {
-				        index = i;
-				        count++;
-				       arrli.add(i);
-				   	//	System.out.print(s4);
-				    }
+				for (i=0;i<str.length;i++) {
+					    if (str[i].equals(Name)) {
+					        index = i;
+					        count++;
+					       arrli.add(i);
+					   	//	System.out.print(s4);
+					    }
+					}
+
+					
+					//System.out.println(arrli); 
+
+					}
 					if (count > 0) {
 						System.out.println(si+ ":"+count);
 					    System.out.println(count1+ ", " +count+", " +arrli);
 					}
-				}
-				
-				
-				//System.out.println(arrli); 
-				count++;
+					count++;
+					//System.out.println(ss.get("moana"));
+		
+	}
 
-				}
-				//System.out.println(ss.get("moana"));
-	
-}
 				 catch (Exception e) {
          
          System.out.println("no file found");
@@ -60,8 +61,7 @@ class Solution {
 			//System.out.println(str);
 	
 
-	    	s.close();
-
+	
 	
 	}
 
