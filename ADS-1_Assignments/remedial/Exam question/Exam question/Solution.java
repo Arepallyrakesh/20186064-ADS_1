@@ -29,9 +29,15 @@ class Solution {
 			int count1 = -1;
 			try {
 	    	s = new Scanner(file);
-	    	 while (s.hasNextLine()) 
-	    	 	str += s.nextLine() + "\n";
+	    	
+	    	for (int a = 0; a < 8; a++) {
+	    		str += s.nextLine() + "\n";
 	    	 count1++;
+	    	}
+
+	    	/* while (s.hasNextLine()) 
+	    	 	str += s.nextLine() + "\n";
+	    	 count1++;*/
       			// System.out.println(s.nextLine());
 	    	
 	    	 String[] str1 = str.split(" ");
