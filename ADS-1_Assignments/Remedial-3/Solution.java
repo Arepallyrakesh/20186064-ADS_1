@@ -32,12 +32,29 @@ class Student  {
         return this.roll + "," + this.name + "," + this.marks; 
     }
     int compareTo(final Student that) {
-        if (this.roll > that.roll ) {
+        if (this.getmarks() > that.getmarks()) {
             return -1;
-
-        } else {
+        } 
+        if (this.getmarks() < that.getmarks()) {
             return 1;
         }
+        if (this.getmarks() == that.getmarks()) {
+            if (this.getname().compareTo(that.getname()) > 0) {
+                return -1;
+            }
+            if (this.getname().compareTo(that.getname()) < 0) {
+                return 1;
+            }
+            if (this.getmarks() == that.getmarks() && this.getname().equals(that.getname())) {
+                if (this.getrollnum() > that.getrollnum()) {
+                    return -1;
+                }
+                if (this.getrollnum() < that.getrollnum()) {
+                    return 1;
+                }
+            }
+        }
+        return 0;
     }
 }
 class Solution {
@@ -62,8 +79,12 @@ class Solution {
         }
         int m = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < m; i++) {
-            int number = Integer.parseInt(sc.nextLine());
+            Double number = Double.parseDouble(sc.nextLine());
             for (int s : bst1.keys()) {
+
+                /*if(!bst1.containsValue(number){
+                    System.out.println("not htere");
+                }*/
                 if (bst1.get(s).getmarks() == number) {
                     System.out.println(bst1.get(s));
                 }
@@ -71,6 +92,8 @@ class Solution {
                     if (bst1.get(s).getmarks() == number) {
                         System.out.println(bst1.get(s));
                     }
+                } else {
+                    System.out.println("This marks are not awarded to any student");
                 }
             }
         }
