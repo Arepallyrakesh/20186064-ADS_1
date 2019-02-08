@@ -49,7 +49,7 @@ class Student  {
     int compareTo(final Student that) {
         if (this.marks > that.marks) {
             return -1;
-        } 
+        }
         if (this.marks < that.marks) {
             return 1;
         }
@@ -58,20 +58,21 @@ class Student  {
                 return -1;
             }
             if (this.name.compareTo(that.name) < 0) {
-                return +1;
+                return 1;
             }
-            if (this.marks == that.marks && this.name.equals(that.name)) {
-                if (this.roll > that.roll) {
-                    return +1;
-                }
-                if (this.roll < that.roll) {
-                    return -1;
-                }
+        }
+        if (this.marks == that.marks && this.name.equals(that.name)) {
+            if (this.roll > that.roll) {
+                return -1;
+            }
+            if (this.roll < that.roll) {
+                return 1;
             }
         }
         return 0;
     }
 }
+
 class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
