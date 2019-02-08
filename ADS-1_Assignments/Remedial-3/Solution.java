@@ -1,6 +1,6 @@
 
 import java.util.*;
-class Student  {
+class Student implements Comparable<Student> {
     int roll;
     String name;
     double marks;
@@ -35,18 +35,10 @@ class Student  {
         this.marks = marks;
     }
 
-
-
-    
-
-    
-
-    
-
     public String toString() {
         return this.roll + "," + this.name + "," + this.marks; 
     }
-    int compareTo(final Student that) {
+   public  int compareTo(final Student that) {
         if (this.marks > that.marks) {
             return -1;
         }
