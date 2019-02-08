@@ -47,25 +47,25 @@ class Student  {
         return this.roll + "," + this.name + "," + this.marks; 
     }
     int compareTo(final Student that) {
-        if (this.getmarks() > that.getmarks()) {
+        if (this.marks > that.marks) {
             return -1;
         } 
-        if (this.getmarks() < that.getmarks()) {
+        if (this.marks < that.marks) {
             return 1;
         }
-        if (this.getmarks() == that.getmarks()) {
-            if (this.getname().compareTo(that.getname()) > 0) {
+        if (this.marks == that.marks) {
+            if (this.name.compareTo(that.name) > 0) {
                 return 1;
             }
-            if (this.getname().compareTo(that.getname()) < 0) {
+            if (this.name.compareTo(that.name) < 0) {
                 return -1;
             }
-            if (this.getmarks() == that.getmarks() && this.getname().equals(that.getname())) {
-                if (this.getrollnum() > that.getrollnum()) {
-                    return -1;
+            if (this.marks == that.marks && this.name.equals(that.name)) {
+                if (this.roll > that.roll) {
+                    return +1;
                 }
-                if (this.getrollnum() < that.getrollnum()) {
-                    return 1;
+                if (this.roll < that.roll) {
+                    return -1;
                 }
             }
         }

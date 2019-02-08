@@ -339,7 +339,6 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:47: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:49:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:52: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:63: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:75: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:75:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:76:5: Missing a Javadoc comment. [JavadocMethod]
@@ -350,4 +349,4 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:85: Line is longer than 80 characters (found 99). [LineLength]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\Remedial-3\Solution.java:110: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 48 errors.
+Checkstyle ends with 47 errors.
