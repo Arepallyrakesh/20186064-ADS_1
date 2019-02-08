@@ -47,10 +47,10 @@ class Student implements Comparable<Student> {
         }
         if (this.marks == that.marks) {
             if (this.name.compareTo(that.name) > 0) {
-                return -1;
+                return 1;
             }
             if (this.name.compareTo(that.name) < 0) {
-                return 1;
+                return -1;
             }
         }
         if (this.marks == that.marks && this.name.equals(that.name)) {
