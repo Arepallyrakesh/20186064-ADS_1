@@ -40,10 +40,10 @@ class Student  {
         }
         if (this.getmarks() == that.getmarks()) {
             if (this.getname().compareTo(that.getname()) > 0) {
-                return -1;
+                return 1;
             }
             if (this.getname().compareTo(that.getname()) < 0) {
-                return 1;
+                return -1;
             }
             if (this.getmarks() == that.getmarks() && this.getname().equals(that.getname())) {
                 if (this.getrollnum() > that.getrollnum()) {
