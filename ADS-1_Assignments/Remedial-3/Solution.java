@@ -92,9 +92,7 @@ class Solution {
                     if (bst1.get(s).getmarks() == number) {
                         System.out.println(bst1.get(s));
                     }
-                } else {
-                    System.out.println("This marks are not awarded to any student");
-                }
+                } 
             }
         }
     }
