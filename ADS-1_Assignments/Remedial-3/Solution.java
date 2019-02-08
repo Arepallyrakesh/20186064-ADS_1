@@ -14,17 +14,32 @@ class Student  {
         return roll;
     }
 
-    
 
-    public String getname(){
+    public void setrollnum(int rollnum){
+        this.roll = rollnum;
+    }
+
+   public String getname(){
         return name;
     }
 
-    
+    public void setname(String name){
+        this.name = name;
+    }
 
     public double getmarks(){
         return marks;
     }
+
+    public void setmarks(double marks){
+        this.marks = marks;
+    }
+
+
+
+    
+
+    
 
     
 
