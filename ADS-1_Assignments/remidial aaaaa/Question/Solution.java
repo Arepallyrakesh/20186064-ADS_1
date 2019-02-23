@@ -18,7 +18,7 @@ class Solution {
             hm1.put(Integer.parseInt(s[0]),Double.parseDouble(s[1]));
             score[i]=Double.parseDouble(s[1]);
         }
-        System.out.println(hm1);
+        //System.out.println(hm1);
         int m = sc.nextInt();
         int[] answer1 = new int[m];
         Double percent=0.0;
