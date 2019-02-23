@@ -24,14 +24,14 @@ class Solution {
         Double percent=0.0;
         for (int i=0;i<m ;i++ ) {
             answer1[i] = sc.nextInt();
-            System.out.println(answer1[i]);
+            //System.out.println(answer1[i]);
         }
         for (Integer key : hm1.keySet()) {
             percent = p.Percentage(hm1.get(key),n,score);
             hm2.put(key,percent);
 
         }
-        System.out.println(hm2.toString());
+        //System.out.println(hm2.toString());
 
         for (Integer inte :answer1 ) {
             Double answer =hm2.get(inte);
