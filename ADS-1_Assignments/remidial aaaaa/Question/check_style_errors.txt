@@ -39,7 +39,7 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:38:34: '/' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:38:35: '/' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:38:35: '100.0' is a magic number. [MagicNumber]
-[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39: Line is longer than 80 characters (found 142). [LineLength]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39: Line is longer than 80 characters (found 177). [LineLength]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:27: '100.0' is a magic number. [MagicNumber]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:47: '30.0' is a magic number. [MagicNumber]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:65: '90.0' is a magic number. [MagicNumber]
@@ -48,6 +48,9 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:115: '==' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:118: '20.0' is a magic number. [MagicNumber]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:136: '50.0' is a magic number. [MagicNumber]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:150: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:153: '60.0' is a magic number. [MagicNumber]
+[ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:39:171: '80.0' is a magic number. [MagicNumber]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:42:55: '(' is preceded with whitespace. [MethodParamPad]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:50: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:50:17: '{' is not preceded with whitespace. [WhitespaceAround]
@@ -83,4 +86,4 @@ Starting audit...
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:64:35: '/' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\20186064-ADS_1\ADS-1_Assignments\remidial aaaaa\Question\Solution.java:64:36: '/' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 83 errors.
+Checkstyle ends with 86 errors.

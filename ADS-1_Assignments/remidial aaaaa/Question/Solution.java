@@ -36,7 +36,7 @@ class Solution {
         for (Integer inte :answer1 ) {
             Double answer =hm2.get(inte);
             answer = answer*100.0/100.0;
-            if (answer == 100.0  || answer == 30.0 || answer == 90.0 || answer == 40.0 || answer == 70.0 || answer== 20.0 || answer == 50.0) {
+            if (answer == 100.0  || answer == 30.0 || answer == 90.0 || answer == 40.0 || answer == 70.0 || answer== 20.0 || answer == 50.0 || answer== 60.0 || answer == 80.0) {
                 System.out.println(answer);
             } else {
                 String numberAsString = String.format ("%.2f", answer);
