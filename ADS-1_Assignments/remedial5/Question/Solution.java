@@ -1,11 +1,12 @@
 import java.util.*;
 import java.util.TreeSet;
+import java.util.PriorityQueue;
 class Solution{
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
-
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		int n = Integer.parseInt(sc.nextLine());
-		TreeSet<Candidate> set = new TreeSet();
+		//TreeSet<Candidate> set = new TreeSet();
 		MaxPQ<Candidate> max = new MaxPQ();
 		while(sc.hasNext()){
 			String[] s1 = sc.nextLine().split(" ");
@@ -13,7 +14,7 @@ class Solution{
 			if (s1[0].equals("Apply") ) {
 				String[] s2 = s1[1].split(",");
 				//System.out.println(Arrays.toString(s2));
-				set.add(new Candidate(Integer.parseInt(s2[0]), s2[1], s2[2], Double.parseDouble(s2[3])));
+				//pq.insert(new Candidate(Integer.parseInt(s2[0]), s2[1], s2[2], Double.parseDouble(s2[3])));
 				max.insert(new Candidate(Integer.parseInt(s2[0]), s2[1], s2[2], Double.parseDouble(s2[3])));
 			} else if (s1[0].equals("Recruit_Top_Candidate")) {
 				
@@ -22,10 +23,13 @@ class Solution{
 			} else if (s1[0].equals("Ranking")) {
 				//System.out.println(Arrays.toString(s1));
 				System.out.println();
-				 Iterator value = set.iterator(); 
-				 while (value.hasNext()) { 
-		            System.out.println(value.next()); 
-		        } 
+				int i = 1;
+				while(!max.isEmpty()){
+					System.out.println(i+": "+max.delMax());
+					i++;
+				}
+
+				 
 			}
 
 			
